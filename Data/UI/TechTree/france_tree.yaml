@@ -1,0 +1,61 @@
+premium_rows: 2
+
+tanks:
+    RenaultFT:
+        position: [1, 4]
+    RenaultFT_AC:
+        position: [2, 3]
+    D1:
+        position: [2, 4]
+    RenaultR35:
+        position: [2, 5]
+    RenaultUE57:
+        position: [3, 3]
+    D2:
+        position: [3, 4]
+    AMX38:
+        position: [3, 5]
+    Somua_Sau_40:
+        position: [4, 3]
+    B1:
+        position: [4, 4]
+    AMX40:
+        position: [4, 5]
+    S_35CA:
+        position: [5, 3]
+    BDR_G1B:
+        position: [5, 4]
+    ELC_AMX:
+        position: [5, 5]
+    ARL_V39:
+        position: [6, 3]
+    ARL_44:
+        position: [6, 4]
+    AMX_12t:
+        position: [6, 5]
+    AMX_AC_Mle1946:
+        position: [7, 3]
+    AMX_M4_1945:
+        position: [7, 4]
+    AMX_13_75:
+        position: [7, 5]
+    FCM_50t:
+        position: [8, 2]
+    AMX_AC_Mle1948:
+        position: [8, 3]
+    AMX_50_100:
+        position: [8, 4]
+    AMX_13_90:
+        position: [8, 5]
+    AMX50_Foch:
+        position: [9, 3]
+    AMX_50_120:
+        position: [9, 4]
+    F75_Char_de_25t:
+        position: [9, 5]
+    AMX_50Fosh_155:
+        position: [10, 3]
+    AMX_50B:
+        position: [10, 4]
+    Bat_Chatillon25t:
+        position: [10, 5]

@@ -1,0 +1,121 @@
+Header:
+    version: "20"
+ImportedPackages:
+- "~res:/UI/Screens/Common/StyledButton.yaml"
+- "~res:/UI/Screens/Common/IconButton.yaml"
+Controls:
+-   class: "UIControl"
+    name: "TankTechTreeContent"
+    position: [0.000000, 0.000000]
+    size: [1024.000000, 1781.000000]
+    noInput: true
+    components:
+        SizePolicy:
+            horizontalPolicy: "PercentOfParent"
+            verticalPolicy: "PercentOfParent"
+    children:
+    -   class: "UIControl"
+        name: "TreeContent"
+        position: [0.000000, 0.000000]
+        size: [1024.000000, 1781.000000]
+        noInput: true
+        components:
+            Anchor:
+                enabled: false
+                leftAnchorEnabled: true
+                hCenterAnchorEnabled: true
+                rightAnchorEnabled: true
+                topAnchorEnabled: true
+                bottomAnchorEnabled: true
+        children:
+        -   class: "UIControl"
+            name: "PremiumBackground"
+            position: [0.000000, 0.000000]
+            size: [1024.000000, 115.000000]
+            noInput: true
+            components:
+                Background:
+                    drawType: "DRAW_FILL"
+                    color: [1.000000, 0.611800, 0.000000, 0.200000]
+        -   class: "UIControl"
+            name: "CollectibleBackground"
+            position: [-460.000000, 995.000000]
+            size: [3000.000000, 1150.000000]
+            noInput: true
+            components:
+                Background:
+                    drawType: "DRAW_FILL"
+                    color: [0.058824, 0.701961, 1.000000, 0.200000]
+        -   prototype: "IconButton/IconButton"
+            name: "CollectibleInfoButton"
+            position: [15.000000, 1011.000000]
+            size: [80.000000, 64.000000]
+            classes: "button button-color-gray"
+            components:
+                Background:
+                    perPixelAccuracy: "PER_PIXEL_ACCURACY_FORCED"
+            children:
+            -   path: "icon"
+                components:
+                    Background:
+                        sprite: "~res:/Gfx/UI/LobbyCommon/IconsSmall"
+                        frame: 26
+        -   class: "UIControl"
+            name: "PremiumInfoNode"
+            position: [15.000000, 16.000000]
+            noInput: true
+            components:
+                LinearLayout:
+                    orientation: "RightToLeft"
+                    spacing: 5.000000
+                SizePolicy:
+                    horizontalPolicy: "PercentOfChildrenSum"
+                    verticalPolicy: "PercentOfMaxChild"
+                Anchor:
+                    leftAnchorEnabled: true
+                    leftAnchor: 15.000000
+                UIAnchorSafeAreaComponent:
+                    leftSafeInset: "INSET"
+            children:
+            -   class: "UIStaticText"
+                name: "VehiclesLabel"
+                position: [85.000000, 0.000000]
+                size: [154.000000, 64.000000]
+                noInput: true
+                classes: "text1 text-color-white"
+                components:
+                    Background:
+                        align: ["LEFT", "TOP"]
+                    UITextComponent:
+                        text: "TANK_TREE_PREMIUM_VEHICLES_LABEL"
+                        colorInheritType: "COLOR_IGNORE_PARENT"
+                        multiline: "MULTILINE_ENABLED"
+                        align: ["LEFT", "VCENTER"]
+                        useRtlAlign: "DONT_USE"
+            -   prototype: "IconButton/IconButton"
+                name: "InfoButton"
+                size: [80.000000, 64.000000]
+                components:
+                    Background:
+                        perPixelAccuracy: "PER_PIXEL_ACCURACY_FORCED"
+                children:
+                -   path: "icon"
+                    components:
+                        Background:
+                            sprite: "~res:/Gfx/UI/LobbyCommon/IconsSmall"
+                            frame: 26
+    -   class: "UIStaticText"
+        name: "CollectibleLabel"
+        position: [100.000000, 1011.000000]
+        size: [154.000000, 64.000000]
+        noInput: true
+        classes: "text1 text-color-white"
+        components:
+            Background:
+                align: ["LEFT", "BOTTOM"]
+            UITextComponent:
+                text: "Collectible tanks"
+                colorInheritType: "COLOR_IGNORE_PARENT"
+                multiline: "MULTILINE_ENABLED"
+                align: ["LEFT", "VCENTER"]
+                useRtlAlign: "DONT_USE"
