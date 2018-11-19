@@ -107,7 +107,7 @@ Controls:
     -   class: "UIStaticText"
         name: "CollectibleLabel"
         position: [100.000000, 1011.000000]
-        size: [154.000000, 64.000000]
+        size: [90.000000, 64.000000]
         noInput: true
         classes: "text1 text-color-white"
         components:
