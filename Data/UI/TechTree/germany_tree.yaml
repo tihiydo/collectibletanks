@@ -1,88 +1,87 @@
 premium_rows: 2
 
 tanks:
-    Ltraktor:
-        position: [1, 6]
-    PanzerJager_I:
-        position: [2, 4]
-    Pz35t:
-        position: [2, 6]
     PzII:
-        position: [2, 8]
-#    Bison_I:
-#        position: [2, 10]
-#    PzII_J:
-#        position: [3, 1]
-    G20_Marder_II:
-        position: [3, 4]
+        position: [1, 5]
+#<!-- 2-nd level -->
+    Pz35t:
+        position: [2, 5]
+    PanzerJager_I:
+        position: [2, 12]
+    H39_captured:
+        position: [2, 13]
+#<!-- 3-rd level -->
+    PzIII:
+        position: [3, 5]
     Pz38t:
-        position: [3, 6]
-#    T-15:
-#        position: [3, 1]
-    S35_captured:
-        position: [3, 2]
-    Pz_II_AusfG:
-        position: [3, 10]
+        position: [3, 12]
     PzIII_A:
-        position: [3, 9]
+        position: [3, 13]
+    G20_Marder_II:
+        position: [3, 14]
+    Pz_II_AusfG:
+        position: [3, 15]
     Pz_IV_AusfA:
-        position: [3, 7]
-#    Wespe:
-#        position: [3, 9]
-#    Sturmpanzer_II:
-#        position: [3, 10]
+        position: [3, 16]
+    PzII_J:
+        position: [3, 17]
+    S35_captured:
+        position: [3, 18]
+    T-15:
+        position: [3, 19]
+    G100_Gtraktor_Krupp:
+        position: [3, 20]
+#<!-- 4-th level -->
     Hetzer:
         position: [4, 4]
-    Pz38_NA:
-        position: [4, 6]
     Pz_IV_AusfD:
-        position: [4, 7]
-    DW_II:
-        position: [4, 8]
-    PzIII:
-        position: [4, 9]
+        position: [4, 6]
     PzII_Luchs:
-        position: [4, 10]
-#    Grille:
-#        position: [4, 10]
+        position: [4, 12]
+    Pz38_NA:
+        position: [4, 13]
+    DW_II:
+        position: [4, 14]
+    B-1bis_captured:
+        position: [4, 15]
+#<!-- 5-th level -->
     PzV_PzIV:
         position: [5, 1]
-    Pz_Sfl_IVc:
-        position: [5, 3]
+    T-25:
+        position: [5, 2]
     StuGIII:
         position: [5, 4]
     PzIV:
-        position: [5, 7]
-    T-25:
-        position: [5, 2]
-    VK3001H:
-        position: [5, 8]
-    PzIII_IV:
-        position: [5, 9]
+        position: [5, 6]
     VK1602:
         position: [5, 10]
-#    Hummel:
-#        position: [5, 10]
+    VK3001H:
+        position: [5, 12]
+    PzIII_IV:
+        position: [5, 13]
+    Pz_Sfl_IVc:
+        position: [5, 14]
+#<!-- 6-th level -->
+    DickerMax:
+        position: [6, 2]
     Nashorn:
         position: [6, 3]
     JagdPzIV:
         position: [6, 4]
-    DickerMax:
-        position: [6, 2]
     VK3001P:
         position: [6, 6]
     VK3601H:
-        position: [6, 7]
-    VK3002M:
         position: [6, 8]
     VK3002DB_V1:
         position: [6, 9]
-#    PzIV_schmalturm:
-#        position: [6, 8]
     VK2801:
-        position: [6, 10]
-#    G_Panther:
-#        position: [6, 10]
+        position: [6, 11]
+    VK3002M:
+        position: [6, 12]
+
+#<!-- 7-th level -->
+    Panther_M10:
+        position: [7, 2]
     Sturer_Emil:
         position: [7, 3]
     JagdPanther:
@@ -90,60 +89,63 @@ tanks:
     PzVI_Tiger_P:
         position: [7, 6]
     PzVI:
-        position: [7, 7]
-    VK3002DB:
-        position: [7, 9]
-    PzV:
         position: [7, 8]
-    Panther_M10:
-        position: [7, 2]
-    G113_SP_I_C:
+    PzV:
+        position: [7, 9]
+    VK3002DB:
         position: [7, 10]
-#    G_Tiger:
-#        position: [7, 10]
+    G113_SP_I_C:
+        position: [7, 11]
+#<!-- 8-th level -->
+    Lowe:
+        position: [8, 1]
+    JagdTiger_SdKfz_185:
+        position: [8, 2]
     RhB_Waffentrager:
         position: [8, 3]
     JagdPantherII:
         position: [8, 4]
     Ferdinand:
         position: [8, 5]
-    JagdTiger_SdKfz_185:
-        position: [8, 2]
     VK4502A:
         position: [8, 6]
-    PzVIB_Tiger_II:
+    G115_VK10001P:
         position: [8, 7]
-    Lowe:
-        position: [8, 1]
-    Panther_II:
+    PzVIB_Tiger_II:
         position: [8, 8]
-    Indien_Panzer:
+    Panther_II:
         position: [8, 9]
-    G103_RU_251:
+    Indien_Panzer:
         position: [8, 10]
-#    G_E:
-#        position: [8, 10]
+    G103_RU_251:
+        position: [8, 11]
+#<!-- 9-th level -->
     Waffentrager_IV:
         position: [9, 3]
     JagdTiger:
         position: [9, 4]
     VK4502P:
         position: [9, 6]
-    E-75:
+    G110_Mauschen:
         position: [9, 7]
-    E-50:
+    E-75:
         position: [9, 8]
-    Pro_Ag_A:
+    E-50:
         position: [9, 9]
+    Pro_Ag_A:
+        position: [9, 10]
+#<!-- 10-th level -->
     G121_Grille_15_L63:
         position: [10, 3]
     JagdPz_E100:
         position: [10, 4]
-    Maus:
+    VK7201:
         position: [10, 6]
-    E-100:
+    Maus:
         position: [10, 7]
-    E50_Ausf_M:
+    E-100:
         position: [10, 8]
-    Leopard1:
+    E50_Ausf_M:
         position: [10, 9]
+    Leopard1:
+        position: [10, 10]

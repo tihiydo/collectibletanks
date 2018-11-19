@@ -1,26 +1,28 @@
 premium_rows: 2
 
 tanks:
-    RenaultFT:
-        position: [1, 4]
-    RenaultFT_AC:
-        position: [2, 3]
-    D1:
-        position: [2, 4]
+#    RenaultFT:
+#        position: [1, 4]
     RenaultR35:
-        position: [2, 5]
-    RenaultUE57:
-        position: [3, 3]
+        position: [1, 4]
+    AMX38:
+        position: [2, 4]
+    RenaultFT_AC:
+        position: [2, 12]
+    D1:
+        position: [2, 13]
     D2:
         position: [3, 4]
-    AMX38:
-        position: [3, 5]
+    RenaultUE57:
+        position: [3, 12]
+    FCM_36Pak40:
+        position: [3, 13]
     Somua_Sau_40:
         position: [4, 3]
     B1:
         position: [4, 4]
     AMX40:
-        position: [4, 5]
+        position: [4, 12]
     S_35CA:
         position: [5, 3]
     BDR_G1B:

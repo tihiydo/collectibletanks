@@ -1,22 +1,22 @@
 premium_rows: 1
 
 tanks:
-    NC27:
-        position: [1, 3]
+#    NC27:
+#        position: [1, 3]
     Ha_Go:
-        position: [2, 2]
+        position: [1, 3]
     Chi_Ni:
         position: [2, 3]
-#    Ke_Ni_B:
-#        position: [3, 1]
-    Ke_Ni:
-        position: [3, 2]
     Chi_Ha:
         position: [3, 3]
-    Ke_Ho:
-        position: [4, 2]
+    Ke_Ni:
+        position: [3, 12]
     Chi_He:
         position: [4, 3]
+    Ke_Ho:
+        position: [4, 12]
+    G09_Hetzer_GuP:
+        position: [4, 13]
 #    Chi_Nu_Kai:
 #        position: [5, 1]
     Chi_Nu:
